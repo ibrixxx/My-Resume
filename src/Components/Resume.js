@@ -27,13 +27,11 @@ const Resume = ({ data }) => {
         </div>
       );
     });
-    var skills = data.skills.map(function (skills) {
-      var className = "bar-expand " + skills.name.toLowerCase();
+    var skills = data.skills.map(function (skills, i) {
       return (
-        <li key={skills.name}>
-          <span style={{ width: skills.level }} className={className}></span>
+        <tr key={skills.name}>
           <em>{skills.name}</em>
-        </li>
+        </tr>
       );
     });
   }
@@ -72,11 +70,12 @@ const Resume = ({ data }) => {
         </div>
 
         <div className="nine columns main-col">
-          <p>{skillmessage}</p>
-
-          <div className="bars">
-            <ul className="skills">{skills}</ul>
-          </div>
+          <h5>{skillmessage}</h5>
+            <div className="skills">
+                <table>
+                    {skills}
+                </table>
+            </div>
         </div>
       </div>
     </section>

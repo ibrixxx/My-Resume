@@ -8,7 +8,6 @@ const Contact = ({ data }) => {
 
   if (data) {
     var contactName = data.name;
-    var street = data.address.street;
     var city = data.address.city;
     var state = data.address.state;
     var zip = data.address.zip;
@@ -99,7 +98,7 @@ const Contact = ({ data }) => {
                   onChange={(e) => setMessage(e.target.value)}
                   id="contactMessage"
                   name="contactMessage"
-                ></textarea>
+                  />
               </div>
 
               <div>
@@ -126,7 +125,6 @@ const Contact = ({ data }) => {
               {contactEmail}
               <br />
               <br />
-              {street} <br />
               {city}, {state} {zip}
               <br />
               <span>{phone}</span>
