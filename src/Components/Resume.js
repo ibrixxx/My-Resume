@@ -70,7 +70,7 @@ const Resume = ({ data }) => {
         </div>
 
         <div className="nine columns main-col">
-          <h5>{skillmessage}</h5>
+          <h6>{skillmessage}:</h6>
             <div className="skills">
                 <table>
                     {skills}
