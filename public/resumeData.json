@@ -3,8 +3,8 @@
     "name": "Ibrahim Mešan",
     "occupation": "Full-stack developer",
     "description": "Building cool apps",
-    "image": "profile.jpeg",
-    "bio": "I'm a full stack developer working mainly with JavaScript front-end frameworks such as React Native and React, but occasionally I do back-end with Node.js, Python and/or Firebase.",
+    "image": "profilePhoto.jpeg",
+    "bio": "I am a software engineer specializing in mobile and web development. I have expertise in building robust mobile apps and enhancing digital platforms using React Native, Next.js, and Node.js. I am passionate about creating amazing UI interfaces and exceptional user experiences, dedicated to delivering high-quality software solutions",
     "contactmessage": "Feel free to get in touch with me",
     "email": "ibrahinmesan@gmail.com",
     "phone": "+387 61271003",
@@ -14,7 +14,7 @@
       "state": "Bosnia",
       "zip": "71000"
     },
-    "resumedownload": "https://fightcampgear.com",
+    "resumedownload": "https://github.com/ibrahimmesan",
     "social": [
       {
         "name": "youtube",
@@ -33,13 +33,13 @@
       },
       {
         "name": "github",
-        "url": "https://github.com/ibrixxx",
+        "url": "https://github.com/ibrahimmesan",
         "className": "fa fa-github"
       }
     ]
   },
   "resume": {
-    "skillmessage": "Programming Languages and Frameworks I've worked with",
+    "skillmessage": "Some of the technologies I've worked with",
     "education": [
       {
         "school": "University of Sarajevo",
@@ -50,16 +50,22 @@
     ],
     "work": [
       {
+        "company": "Gridlock Crypto Wallet",
+        "title": "Full-Stack Software Developer",
+        "years": "Jan 2023 - Jun 2024",
+        "description": "As a dedicated Mobile and Web Developer at Gridlock, I was instrumental in developing and maintaining a cutting-edge mobile MPC (Multi-Party Computation) crypto wallet and enhancing the company’s digital presence through a robust blog and webpage. My role encompassed both frontend and backend development, utilizing a variety of modern technologies to deliver high-quality software solutions."
+      },
+      {
         "company": "misija",
         "title": "Software Developer",
-        "years": "Oct 2021 - Present",
+        "years": "Oct 2021 - Jan 2023",
         "description": "Building and maintaining mobile apps with React Native and occasionally doing React for web apps and Adonis.js with PostgreSql for the back-end"
       },
       {
         "company": "University Tele-Informatic Centre UTIC, University of Sarajevo",
         "title": "Software Developer Intern",
         "years": "Jun 2021 - Sep 2021",
-        "description": "Developing a mobile app for the eUNSA platform in React Native"
+        "description": "Developing a mobile app in React Native for the eUNSA platform that helps students of University of Sarajevo track their progress"
       }
     ],
     "skills": [
@@ -67,25 +73,34 @@
         "name": "React Native"
       },
       {
-        "name": "Python"
+        "name": "Next.js"
       },
       {
         "name": "React.js"
       },
       {
-        "name": "JavaScript"
+        "name": "TypeScript"
       },
       {
         "name": "Node.js"
       },
       {
-        "name": "Adonis.js"
+        "name": "Express.js"
+      },
+      {
+        "name": "Git"
+      },
+      {
+        "name": "Railway"
+      },
+      {
+        "name": "Adapty"
       },
       {
         "name": "C++"
       },
       {
-        "name": "Express.js"
+        "name": "Adonis.js"
       },
       {
         "name": "Java"
@@ -95,14 +110,23 @@
       },
       {
         "name": "Django"
-      },
-      {
-        "name": "Firebase"
       }
     ]
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "Sticker Tracker",
+        "category": "",
+        "image": "sticker_tracker.png",
+        "url": "https://play.google.com/store/apps/details?id=com.ibrahimmesan.panini&hl=bs&gl=US"
+      },
+      {
+        "title": "NFT minting platform",
+        "category": "",
+        "image": "rnc.png",
+        "url": "https://racing-number-club.vercel.app/nft/mint"
+      },
       {
         "title": "Food delivery platform",
         "category": "",
@@ -114,18 +138,6 @@
         "category": "",
         "image": "cpp.png",
         "url": "https://github.com/ibrixxx/Sparse-Matrix-Optimisation"
-      },
-      {
-        "title": "Movie app",
-        "category": "",
-        "image": "reactnative.jpeg",
-        "url": "https://github.com/ibrixxx/Movie-App"
-      },
-      {
-        "title": "NFT minting platform",
-        "category": "",
-        "image": "next.webp",
-        "url": "https://racing-number-club.vercel.app/nft/mint"
       }
     ]
   },
