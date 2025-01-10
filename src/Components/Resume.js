@@ -2,7 +2,6 @@ import React from "react";
 
 const Resume = ({ data }) => {
   if (data) {
-    var skillmessage = data.skillmessage;
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -25,13 +24,6 @@ const Resume = ({ data }) => {
           </p>
           <p>{work.description}</p>
         </div>
-      );
-    });
-    var skills = data.skills.map(function (skills, i) {
-      return (
-        <tr key={skills.name}>
-          <em>{skills.name}</em>
-        </tr>
       );
     });
   }
@@ -60,23 +52,6 @@ const Resume = ({ data }) => {
         </div>
 
         <div className="nine columns main-col">{work}</div>
-      </div>
-
-      <div className="row skill">
-        <div className="three columns header-col">
-          <h1>
-            <span>Skills</span>
-          </h1>
-        </div>
-
-        <div className="nine columns main-col">
-          <h6>{skillmessage}:</h6>
-            <div className="skills">
-                <table>
-                    {skills}
-                </table>
-            </div>
-        </div>
       </div>
     </section>
   );

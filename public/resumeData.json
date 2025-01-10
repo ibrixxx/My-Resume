@@ -39,7 +39,6 @@
     ]
   },
   "resume": {
-    "skillmessage": "Some of the technologies I've worked with",
     "education": [
       {
         "school": "University of Sarajevo",
@@ -67,76 +66,72 @@
         "years": "Jun 2021 - Sep 2021",
         "description": "Developing a mobile app in React Native for the eUNSA platform that helps students of University of Sarajevo track their progress"
       }
-    ],
-    "skills": [
-      {
-        "name": "React Native"
-      },
-      {
-        "name": "Next.js"
-      },
-      {
-        "name": "React.js"
-      },
-      {
-        "name": "TypeScript"
-      },
-      {
-        "name": "Node.js"
-      },
-      {
-        "name": "Express.js"
-      },
-      {
-        "name": "Git"
-      },
-      {
-        "name": "Railway"
-      },
-      {
-        "name": "Adapty"
-      },
-      {
-        "name": "C++"
-      },
-      {
-        "name": "Adonis.js"
-      },
-      {
-        "name": "Java"
-      },
-      {
-        "name": "C#"
-      },
-      {
-        "name": "Django"
-      }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Sticker Tracker",
-        "category": "",
-        "image": "sticker_tracker.png",
-        "url": "https://play.google.com/store/apps/details?id=com.ibrahimmesan.panini&hl=bs&gl=US"
+        "title": "AB Rent a Car",
+        "description": "Rent a car platform, with car fleet management features, emails and notifications integration, client contract doc generation, multi language support and more.",
+        "technologies": ["Next", "Supabase", "Sanity CMS", "Tailwind CSS"],
+        "image": "3.png",
+        "secondaryImage": "33.png",
+        "url": "https://www.abrentcars.com/"
       },
       {
-        "title": "NFT minting platform",
-        "category": "",
+        "title": "AB Dashboard",
+        "description": "A fleet management and analytics dashboard with notifications on new reservation integration. Fully functioning Android, iOS and Web app built with a single same codebase for all 3 platforms.",
+        "technologies": ["Expo", "Expo Notifications", "Supabase"],
+        "image": "1.png",
+        "secondaryImage": "11.png",
+        "url": "https://admin.abrentcars.com/"
+      },
+      {
+        "title": "FLEXTREME Shop",
+        "description": "Gym equipment e-com store with functionality such as PayPal integration, discount code usage, email integration, user sign-up, special discount calculations depending on items in the cart and other standard e-com store features.",
+        "technologies": ["Next", "Supabase", "Zustand", "PayPal"],
+        "image": "2.png",
+        "secondaryImage": "22.png",
+        "url": "https://www.flextremeshop.com/"
+      },
+      {
+        "title": "FLEXTREME Store Dashboard",
+        "description": "E-commerce store management and analytics dashboard where the owner can manage his store inventory, orders, products, shipping and more. Also view revenue, user and const/profit data in different chats.",
+        "technologies": ["Next", "Supabase", "Tailwind CSS"],
+        "image": "4.png",
+        "secondaryImage": "44.png",
+        "url": "https://admin.flextremeshop.com/"
+      },
+      {
+        "title": "Sticker Tracker",
+        "description": "A mobile application for tracking and managing PANINI WC sticker collections.",
+        "technologies": ["React Native", "Firebase", "Redux"],
+        "image": "sticker_tracker.png",
+        "secondaryImage": "stick.png",
+        "url": "https://apps.apple.com/us/app/sticker-tracker/id6443738825"
+      },
+      {
+        "title": "Racing Number Club",
+        "description": "NFT minting platform for a unique 99 racing numbers NFTs.",
+        "technologies": ["Next", "Ethers", "ThirdWeb"],
         "image": "rnc.png",
+        "secondaryImage": "rnc.png",
         "url": "https://racing-number-club.vercel.app/nft/mint"
       },
       {
         "title": "Food delivery platform",
-        "category": "",
-        "image": "express.png",
+        "description": "A University project built to simulate food delivery platforms, with multiple modules for a basic user, delivery person, restaurant admin and platform admin. I know it looks bad, but it's functional and it's one of my first projects.",
+        "technologies": ["Node.js", "Express.js", "EJS"],
+        "image": "5.png",
+        "secondaryImage": "55.png",
         "url": "https://www.youtube.com/watch?v=Fr-FzDQO_AU&t=185s&ab_channel=IbrahimMesan"
       },
       {
-        "title": "Sparse matrix optimisation",
-        "category": "",
+        "title": "Sparse matrix optimization",
+        "description": "Sparse matrix optimization algorithm for storing and performing operations on spars matrixes",
+        "technologies": ["C++"],
         "image": "cpp.png",
+        "secondaryImage": "cpp.png",
         "url": "https://github.com/ibrixxx/Sparse-Matrix-Optimisation"
       }
     ]
