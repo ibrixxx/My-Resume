@@ -43,26 +43,37 @@
       {
         "school": "University of Sarajevo",
         "degree": "Information Technology",
+        "image": "unsa.jpg",
         "graduated": "Graduated September 2021",
         "description": "Faculty of Science"
       }
     ],
     "work": [
       {
+        "company": "Artco Group",
+        "title": "Full-Stack Software Developer",
+        "image": "artco.jpeg",
+        "years": "Apr 2025 - Present",
+        "description": "Developing OCR features for a CRM system using React and Express, along with other full-stack development activities including API development, database management, and frontend implementation."
+      },
+      {
         "company": "Gridlock Crypto Wallet",
         "title": "Full-Stack Software Developer",
+        "image": "gridlock.webp",
         "years": "Jan 2023 - Jun 2024",
         "description": "As a dedicated Mobile and Web Developer at Gridlock, I was instrumental in developing and maintaining a cutting-edge mobile MPC (Multi-Party Computation) crypto wallet and enhancing the company’s digital presence through a robust blog and webpage. My role encompassed both frontend and backend development, utilizing a variety of modern technologies to deliver high-quality software solutions."
       },
       {
         "company": "misija",
         "title": "Software Developer",
+        "image": "misija.png",
         "years": "Oct 2021 - Jan 2023",
         "description": "Building and maintaining mobile apps with React Native and occasionally doing React for web apps and Adonis.js with PostgreSql for the back-end"
       },
       {
         "company": "University Tele-Informatic Centre UTIC, University of Sarajevo",
         "title": "Software Developer Intern",
+        "image": "utic.jpg",
         "years": "Jun 2021 - Sep 2021",
         "description": "Developing a mobile app in React Native for the eUNSA platform that helps students of University of Sarajevo track their progress"
       }
@@ -73,7 +84,7 @@
       {
         "title": "AB Rent a Car",
         "description": "Rent a car platform, with car fleet management features, emails and notifications integration, client contract doc generation, multi language support and more.",
-        "technologies": ["Next", "Supabase", "Sanity CMS", "Tailwind CSS"],
+        "technologies": ["Next", "Supabase", "Sanity", "Tailwind"],
         "image": "3.png",
         "secondaryImage": "33.png",
         "url": "https://www.abrentcars.com/"
