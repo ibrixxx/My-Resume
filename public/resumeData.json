@@ -82,6 +82,22 @@
   "portfolio": {
     "projects": [
       {
+        "title": "MeetingsAI",
+        "description": "Personal AI meeting assistant. Summarize recordings, transcribe, translate and chat with on-device AI for privacy or cloud AI for performance.",
+        "technologies": ["Expo", "Next.js", "Fast API", "On-device AI"],
+        "image": "meet.png",
+        "secondaryImage": "meet.png",
+        "url": "https://www.meetingsai.app/"
+      },
+      {
+        "title": "FLEXTREME Coaching",
+        "description": "Online coaching platform for gym coaches and their clients to track progress, follow the program and see real data. It comes with integrated online payments for clients who prefer only online coaching.",
+        "technologies": ["Next.js", "Supabase", "Lemonsqueezy"],
+        "image": "flexccc.png",
+        "secondaryImage": "flexccc.png",
+        "url": "https://coaching.flextremeshop.com/"
+      },
+      {
         "title": "AB Rent a Car",
         "description": "Rent a car platform, with car fleet management features, emails and notifications integration, client contract doc generation, multi language support and more.",
         "technologies": ["Next", "Supabase", "Sanity", "Tailwind"],
@@ -128,14 +144,6 @@
         "image": "rnc.png",
         "secondaryImage": "rnc.png",
         "url": "https://racing-number-club.vercel.app/nft/mint"
-      },
-      {
-        "title": "Food delivery platform",
-        "description": "A University project built to simulate food delivery platforms, with multiple modules for a basic user, delivery person, restaurant admin and platform admin. I know it looks bad, but it's functional and it's one of my first projects.",
-        "technologies": ["Node.js", "Express.js", "EJS"],
-        "image": "5.png",
-        "secondaryImage": "55.png",
-        "url": "https://www.youtube.com/watch?v=Fr-FzDQO_AU&t=185s&ab_channel=IbrahimMesan"
       },
       {
         "title": "Sparse matrix optimization",
